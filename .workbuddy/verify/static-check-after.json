@@ -1,0 +1,2374 @@
+{
+  "file": {
+    "path": "C:\\Users\\shanxin\\Desktop\\在校高校系统\\在校高效系统v0.2.1.html",
+    "label": "after",
+    "sha256": "92d35affb4c9887249da7ccf6cf5943767219f04c27678aa6655aa3248b38fdb",
+    "bytes": 994797,
+    "lines": 2452,
+    "styleBlocks": 1,
+    "scriptBlocks": 3
+  },
+  "structure": {
+    "styleTags": [
+      {
+        "openLine": 10,
+        "closeLine": 675,
+        "bytes": 37119
+      }
+    ],
+    "scriptTags": [
+      {
+        "openLine": 813,
+        "closeLine": 830,
+        "bytes": 668,
+        "isSheetJs": false,
+        "isApp": false
+      },
+      {
+        "openLine": 848,
+        "closeLine": 871,
+        "bytes": 639147,
+        "isSheetJs": true,
+        "isApp": false
+      },
+      {
+        "openLine": 872,
+        "closeLine": 2449,
+        "bytes": 63587,
+        "isSheetJs": false,
+        "isApp": true
+      }
+    ],
+    "cssBraces": {
+      "open": 318,
+      "close": 318,
+      "ok": true,
+      "firstNegativeLine": null,
+      "minDepth": 0
+    },
+    "appJsBraces": {
+      "open": 381,
+      "close": 381,
+      "balanced": true
+    },
+    "cssRules": 304,
+    "cssBytes": 37119,
+    "importantCount": 3,
+    "mediaQueries": [
+      {
+        "text": "@media (max-width:1200px)",
+        "line": 593
+      },
+      {
+        "text": "@media (max-width:1024px)",
+        "line": 598
+      },
+      {
+        "text": "@media (max-width:900px)",
+        "line": 602
+      },
+      {
+        "text": "@media (max-width:860px)",
+        "line": 613
+      },
+      {
+        "text": "@media (max-width:620px)",
+        "line": 625
+      },
+      {
+        "text": "@media (hover:none)",
+        "line": 666
+      },
+      {
+        "text": "@media (prefers-reduced-motion:reduce)",
+        "line": 671
+      }
+    ]
+  },
+  "classes": {
+    "definedCount": 111,
+    "usedCount": 102,
+    "htmlUsedCount": 47,
+    "jsUsedCount": 58,
+    "missingStyleForUsed": [
+      {
+        "name": "sb",
+        "dynamicPrefix": [
+          "sb2",
+          "sb3",
+          "sb4",
+          "sb5"
+        ]
+      },
+      {
+        "name": "sep",
+        "dynamicPrefix": []
+      }
+    ],
+    "deadLegacy": [],
+    "deadOther": [
+      "info"
+    ],
+    "whitelistUnreferenced": [
+      "bad",
+      "btn-danger",
+      "dim",
+      "good",
+      "hi",
+      "ok",
+      "sb2",
+      "sb3",
+      "sb4",
+      "sb5"
+    ],
+    "coverage": {
+      "definedCoveredByUsage": 100,
+      "definedTotal": 111,
+      "usedWithStyle": 100,
+      "usedTotal": 102
+    },
+    "definitions": [
+      {
+        "name": "active",
+        "lines": [
+          190,
+          202,
+          249
+        ]
+      },
+      {
+        "name": "acts",
+        "lines": [
+          358
+        ]
+      },
+      {
+        "name": "bad",
+        "lines": [
+          566,
+          567
+        ]
+      },
+      {
+        "name": "badge",
+        "lines": [
+          584
+        ]
+      },
+      {
+        "name": "bar",
+        "lines": [
+          157,
+          161,
+          162,
+          163,
+          164,
+          381,
+          382,
+          637
+        ]
+      },
+      {
+        "name": "blank",
+        "lines": [
+          286,
+          365
+        ]
+      },
+      {
+        "name": "board",
+        "lines": [
+          168,
+          611,
+          639
+        ]
+      },
+      {
+        "name": "board-head",
+        "lines": [
+          175,
+          604,
+          616,
+          640
+        ]
+      },
+      {
+        "name": "brand",
+        "lines": [
+          102,
+          110,
+          111,
+          596,
+          605,
+          630
+        ]
+      },
+      {
+        "name": "btn",
+        "lines": [
+          218,
+          226,
+          227,
+          228,
+          239,
+          240,
+          643,
+          644,
+          668
+        ]
+      },
+      {
+        "name": "btn-danger",
+        "lines": [
+          235,
+          236
+        ]
+      },
+      {
+        "name": "btn-ghost-danger",
+        "lines": [
+          237,
+          238
+        ]
+      },
+      {
+        "name": "btn-primary",
+        "lines": [
+          229,
+          234
+        ]
+      },
+      {
+        "name": "chip",
+        "lines": [
+          494,
+          499
+        ]
+      },
+      {
+        "name": "chips",
+        "lines": [
+          493
+        ]
+      },
+      {
+        "name": "clock",
+        "lines": [
+          112,
+          628
+        ]
+      },
+      {
+        "name": "clock-date",
+        "lines": [
+          127
+        ]
+      },
+      {
+        "name": "clock-time",
+        "lines": [
+          126,
+          599,
+          609,
+          629
+        ]
+      },
+      {
+        "name": "d",
+        "lines": [
+          377,
+          481
+        ]
+      },
+      {
+        "name": "day-card",
+        "lines": [
+          372,
+          377,
+          378,
+          379
+        ]
+      },
+      {
+        "name": "day-list",
+        "lines": [
+          371,
+          623,
+          664
+        ]
+      },
+      {
+        "name": "dim",
+        "lines": [
+          398
+        ]
+      },
+      {
+        "name": "done",
+        "lines": [
+          301,
+          306,
+          307,
+          317,
+          322
+        ]
+      },
+      {
+        "name": "drag",
+        "lines": [
+          348
+        ]
+      },
+      {
+        "name": "empty",
+        "lines": [
+          340,
+          348,
+          349,
+          355,
+          356,
+          357,
+          358,
+          359,
+          653,
+          654,
+          655,
+          656
+        ]
+      },
+      {
+        "name": "err",
+        "lines": [
+          455
+        ]
+      },
+      {
+        "name": "field",
+        "lines": [
+          441,
+          442,
+          443,
+          444,
+          451,
+          452,
+          453,
+          455
+        ]
+      },
+      {
+        "name": "foot",
+        "lines": [
+          165
+        ]
+      },
+      {
+        "name": "good",
+        "lines": [
+          565
+        ]
+      },
+      {
+        "name": "hd",
+        "lines": [
+          517,
+          523,
+          524,
+          525,
+          669
+        ]
+      },
+      {
+        "name": "hi",
+        "lines": [
+          400,
+          406
+        ]
+      },
+      {
+        "name": "hint",
+        "lines": [
+          359
+        ]
+      },
+      {
+        "name": "hist-dates",
+        "lines": [
+          516
+        ]
+      },
+      {
+        "name": "hist-empty",
+        "lines": [
+          547
+        ]
+      },
+      {
+        "name": "hist-sum",
+        "lines": [
+          526,
+          527
+        ]
+      },
+      {
+        "name": "hist-tbl",
+        "lines": [
+          533,
+          534,
+          541,
+          542,
+          543,
+          544
+        ]
+      },
+      {
+        "name": "hist-wrap",
+        "lines": [
+          528
+        ]
+      },
+      {
+        "name": "hk",
+        "lines": [
+          545
+        ]
+      },
+      {
+        "name": "hm",
+        "lines": [
+          546
+        ]
+      },
+      {
+        "name": "ico",
+        "lines": [
+          349,
+          654
+        ]
+      },
+      {
+        "name": "info",
+        "lines": [
+          508
+        ]
+      },
+      {
+        "name": "k",
+        "lines": [
+          146,
+          147,
+          634,
+          635
+        ]
+      },
+      {
+        "name": "kv",
+        "lines": [
+          511,
+          512,
+          513,
+          514
+        ]
+      },
+      {
+        "name": "leaving-left",
+        "lines": [
+          252
+        ]
+      },
+      {
+        "name": "leaving-right",
+        "lines": [
+          253
+        ]
+      },
+      {
+        "name": "live",
+        "lines": [
+          119,
+          124
+        ]
+      },
+      {
+        "name": "logo",
+        "lines": [
+          103,
+          109,
+          631
+        ]
+      },
+      {
+        "name": "meta-line",
+        "lines": [
+          165
+        ]
+      },
+      {
+        "name": "mini-bar",
+        "lines": [
+          401,
+          405,
+          406
+        ]
+      },
+      {
+        "name": "modal",
+        "lines": [
+          423,
+          439,
+          657
+        ]
+      },
+      {
+        "name": "modal-body",
+        "lines": [
+          434,
+          658,
+          660
+        ]
+      },
+      {
+        "name": "modal-foot",
+        "lines": [
+          435,
+          661
+        ]
+      },
+      {
+        "name": "modal-head",
+        "lines": [
+          431,
+          432,
+          433,
+          659
+        ]
+      },
+      {
+        "name": "modal-mask",
+        "lines": [
+          416,
+          421
+        ]
+      },
+      {
+        "name": "more",
+        "lines": [
+          499
+        ]
+      },
+      {
+        "name": "n",
+        "lines": [
+          378,
+          379
+        ]
+      },
+      {
+        "name": "notice",
+        "lines": [
+          501,
+          508,
+          509
+        ]
+      },
+      {
+        "name": "num",
+        "lines": [
+          395,
+          544
+        ]
+      },
+      {
+        "name": "ok",
+        "lines": [
+          397
+        ]
+      },
+      {
+        "name": "on",
+        "lines": [
+          482,
+          487,
+          488,
+          525
+        ]
+      },
+      {
+        "name": "opt",
+        "lines": [
+          457,
+          463,
+          464,
+          465,
+          472,
+          478,
+          479,
+          480,
+          481,
+          482,
+          487,
+          488,
+          669
+        ]
+      },
+      {
+        "name": "opt-body",
+        "lines": [
+          479
+        ]
+      },
+      {
+        "name": "out",
+        "lines": [
+          569
+        ]
+      },
+      {
+        "name": "pct-val",
+        "lines": [
+          399,
+          400
+        ]
+      },
+      {
+        "name": "pop",
+        "lines": [
+          330
+        ]
+      },
+      {
+        "name": "prep-left",
+        "lines": [
+          251
+        ]
+      },
+      {
+        "name": "prep-right",
+        "lines": [
+          250
+        ]
+      },
+      {
+        "name": "row-del",
+        "lines": [
+          407,
+          412,
+          413,
+          669
+        ]
+      },
+      {
+        "name": "sb2",
+        "lines": [
+          332
+        ]
+      },
+      {
+        "name": "sb3",
+        "lines": [
+          333
+        ]
+      },
+      {
+        "name": "sb4",
+        "lines": [
+          334
+        ]
+      },
+      {
+        "name": "sb5",
+        "lines": [
+          335
+        ]
+      },
+      {
+        "name": "sc-b",
+        "lines": [
+          324,
+          330,
+          332,
+          333,
+          334,
+          335,
+          337
+        ]
+      },
+      {
+        "name": "sc-n",
+        "lines": [
+          312,
+          317
+        ]
+      },
+      {
+        "name": "sc-s",
+        "lines": [
+          318,
+          322,
+          336
+        ]
+      },
+      {
+        "name": "scard",
+        "lines": [
+          289,
+          298,
+          299,
+          300,
+          301,
+          306,
+          307,
+          317,
+          322,
+          652,
+          667
+        ]
+      },
+      {
+        "name": "search",
+        "lines": [
+          205,
+          206,
+          207,
+          214,
+          215,
+          216,
+          594,
+          595,
+          620,
+          621,
+          622,
+          645
+        ]
+      },
+      {
+        "name": "sect-title",
+        "lines": [
+          366,
+          370
+        ]
+      },
+      {
+        "name": "sidc",
+        "lines": [
+          396,
+          543
+        ]
+      },
+      {
+        "name": "ssw",
+        "lines": [
+          196,
+          201,
+          202,
+          642
+        ]
+      },
+      {
+        "name": "stats",
+        "lines": [
+          130,
+          608,
+          615,
+          632
+        ]
+      },
+      {
+        "name": "sub",
+        "lines": [
+          156
+        ]
+      },
+      {
+        "name": "subj",
+        "lines": [
+          254,
+          274,
+          275,
+          276,
+          277,
+          278
+        ]
+      },
+      {
+        "name": "subj-cnt",
+        "lines": [
+          269,
+          650
+        ]
+      },
+      {
+        "name": "subj-grid",
+        "lines": [
+          279,
+          286,
+          336,
+          337,
+          651
+        ]
+      },
+      {
+        "name": "subj-head",
+        "lines": [
+          260,
+          648
+        ]
+      },
+      {
+        "name": "subj-name",
+        "lines": [
+          264,
+          268,
+          274,
+          275,
+          276,
+          277,
+          278,
+          649
+        ]
+      },
+      {
+        "name": "subj-panels",
+        "lines": [
+          244,
+          249,
+          250,
+          251,
+          252,
+          253,
+          274,
+          275,
+          276,
+          277,
+          278,
+          610,
+          647,
+          673
+        ]
+      },
+      {
+        "name": "subj-switch",
+        "lines": [
+          195
+        ]
+      },
+      {
+        "name": "t",
+        "lines": [
+          480,
+          487
+        ]
+      },
+      {
+        "name": "t-ok",
+        "lines": [
+          143,
+          162
+        ]
+      },
+      {
+        "name": "t-rate",
+        "lines": [
+          145,
+          164
+        ]
+      },
+      {
+        "name": "t-wait",
+        "lines": [
+          144,
+          163
+        ]
+      },
+      {
+        "name": "tab",
+        "lines": [
+          183,
+          188,
+          189,
+          190,
+          618,
+          641
+        ]
+      },
+      {
+        "name": "tabs",
+        "lines": [
+          182,
+          617
+        ]
+      },
+      {
+        "name": "tbl",
+        "lines": [
+          363,
+          384,
+          385,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
+        ]
+      },
+      {
+        "name": "ti",
+        "lines": [
+          564,
+          565,
+          567
+        ]
+      },
+      {
+        "name": "tile",
+        "lines": [
+          131,
+          139,
+          143,
+          144,
+          145,
+          146,
+          147,
+          151,
+          155,
+          156,
+          157,
+          161,
+          162,
+          163,
+          164,
+          600,
+          606,
+          607,
+          633,
+          634,
+          635,
+          636,
+          637
+        ]
+      },
+      {
+        "name": "tiny",
+        "lines": [
+          336,
+          337
+        ]
+      },
+      {
+        "name": "tip",
+        "lines": [
+          583
+        ]
+      },
+      {
+        "name": "toast",
+        "lines": [
+          556,
+          564,
+          565,
+          566,
+          567,
+          569,
+          662
+        ]
+      },
+      {
+        "name": "toasts",
+        "lines": [
+          550,
+          662,
+          663
+        ]
+      },
+      {
+        "name": "tools",
+        "lines": [
+          204,
+          619,
+          646
+        ]
+      },
+      {
+        "name": "topbar",
+        "lines": [
+          92,
+          97,
+          100,
+          626
+        ]
+      },
+      {
+        "name": "topbar-inner",
+        "lines": [
+          101,
+          627
+        ]
+      },
+      {
+        "name": "unsupported",
+        "lines": [
+          573
+        ]
+      },
+      {
+        "name": "unsupported-card",
+        "lines": [
+          574,
+          580,
+          581,
+          582,
+          583,
+          584
+        ]
+      },
+      {
+        "name": "v",
+        "lines": [
+          151,
+          155,
+          600,
+          606,
+          636
+        ]
+      },
+      {
+        "name": "view-pad",
+        "lines": [
+          364
+        ]
+      },
+      {
+        "name": "wide",
+        "lines": [
+          439
+        ]
+      },
+      {
+        "name": "wrap",
+        "lines": [
+          98,
+          99,
+          100,
+          603,
+          614,
+          626,
+          638
+        ]
+      }
+    ]
+  },
+  "colors": {
+    "oldPalette": [
+      {
+        "color": "#12385a",
+        "normalized": "#12385a",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#1a5b8d",
+        "normalized": "#1a5b8d",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#0f2740",
+        "normalized": "#0f2740",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#14476f",
+        "normalized": "#14476f",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#c62828",
+        "normalized": "#c62828",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#16a34a",
+        "normalized": "#16a34a",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#12813f",
+        "normalized": "#12813f",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#e0a13a",
+        "normalized": "#e0a13a",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#f1f5f9",
+        "normalized": "#f1f5f9",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#ffffff",
+        "normalized": "#ffffff",
+        "total": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "themeToken": 1,
+        "residue": 1,
+        "hits": [
+          {
+            "raw": "#FFFFFF",
+            "normalized": "#ffffff",
+            "line": 30,
+            "region": "css",
+            "themeToken": true,
+            "offset": 1407,
+            "lineText": "--hi:#FFFFFF;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 348,
+            "region": "css",
+            "themeToken": false,
+            "offset": 20654,
+            "lineText": ".empty.drag{border-color:rgba(110,156,196,.55);transform:scale(.997);box-shadow:inset -6px -6px 16px #fff, inset 6px 6px 18px rgba(110,156,196,.35)}"
+          }
+        ]
+      }
+    ],
+    "oldPaletteResidueTotal": 1,
+    "oldPaletteThemeTokenTotal": 1,
+    "oldPaletteTotal": 2,
+    "rgbCount": 167,
+    "hslCount": 0,
+    "uniqueHexCount": 114,
+    "inventoryTop30": [
+      {
+        "color": "#eff4fa",
+        "count": 8,
+        "css": 8,
+        "js": 0,
+        "html": 0,
+        "firstLine": 135,
+        "sample": "background:linear-gradient(145deg,#EFF4FA 0%,#E6ECF3 100%);"
+      },
+      {
+        "color": "#e2e8f0",
+        "count": 7,
+        "css": 7,
+        "js": 0,
+        "html": 0,
+        "firstLine": 115,
+        "sample": "background:linear-gradient(145deg,#E2E8F0 0%,#EDF2F8 100%);"
+      },
+      {
+        "color": "#c8e0f4",
+        "count": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "firstLine": 14,
+        "sample": "主色：浅粉彩 #C8E0F4（软蓝）/ #F5E0E8（软粉）/ #E8E8E8（软灰）"
+      },
+      {
+        "color": "#e4eaf1",
+        "count": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "firstLine": 24,
+        "sample": "--surface-2:#E4EAF1;"
+      },
+      {
+        "color": "#a9cde9",
+        "count": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "firstLine": 37,
+        "sample": "--blue-2:#A9CDE9;"
+      },
+      {
+        "color": "#edf2f8",
+        "count": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "firstLine": 115,
+        "sample": "background:linear-gradient(145deg,#E2E8F0 0%,#EDF2F8 100%);"
+      },
+      {
+        "color": "#e9eef5",
+        "count": 5,
+        "css": 5,
+        "js": 0,
+        "html": 0,
+        "firstLine": 23,
+        "sample": "--surface:#E9EEF5;"
+      },
+      {
+        "color": "#e6ecf3",
+        "count": 5,
+        "css": 5,
+        "js": 0,
+        "html": 0,
+        "firstLine": 135,
+        "sample": "background:linear-gradient(145deg,#EFF4FA 0%,#E6ECF3 100%);"
+      },
+      {
+        "color": "#e4eaf2",
+        "count": 4,
+        "css": 4,
+        "js": 0,
+        "html": 0,
+        "firstLine": 22,
+        "sample": "--bg-soft:#E4EAF2;"
+      },
+      {
+        "color": "#45775c",
+        "count": 4,
+        "css": 4,
+        "js": 0,
+        "html": 0,
+        "firstLine": 44,
+        "sample": "--mint-ink:#45775C;"
+      },
+      {
+        "color": "#7e4149",
+        "count": 4,
+        "css": 4,
+        "js": 0,
+        "html": 0,
+        "firstLine": 236,
+        "sample": ".btn-danger:hover{background:linear-gradient(145deg,#F4DDE0,#EBCACE);color:#7E4149}"
+      },
+      {
+        "color": "#e5ebf2",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 171,
+        "sample": "background:linear-gradient(150deg,#EBF0F7 0%,#E5EBF2 55%,#E9EEF5 100%);"
+      },
+      {
+        "color": "#e3e9f1",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 221,
+        "sample": "background:linear-gradient(145deg,#EFF4F9 0%,#E3E9F1 100%);"
+      },
+      {
+        "color": "#dcebfa",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 230,
+        "sample": "background:linear-gradient(145deg,#DCEBFA 0%,#C8E0F4 100%);"
+      },
+      {
+        "color": "#e7ecf3",
+        "count": 2,
+        "css": 1,
+        "js": 0,
+        "html": 1,
+        "firstLine": 6,
+        "sample": "<meta name=\"theme-color\" content=\"#E7ECF3\">"
+      },
+      {
+        "color": "#f5e0e8",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 14,
+        "sample": "主色：浅粉彩 #C8E0F4（软蓝）/ #F5E0E8（软粉）/ #E8E8E8（软灰）"
+      },
+      {
+        "color": "#ffffff",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 30,
+        "sample": "--hi:#FFFFFF;"
+      },
+      {
+        "color": "#3c6a92",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 38,
+        "sample": "--blue-ink:#3C6A92;"
+      },
+      {
+        "color": "#d8ede2",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 42,
+        "sample": "--mint:#D8EDE2;"
+      },
+      {
+        "color": "#f3e8d2",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 45,
+        "sample": "--amber:#F3E8D2;"
+      },
+      {
+        "color": "#7e6033",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 47,
+        "sample": "--amber-ink:#7E6033;"
+      },
+      {
+        "color": "#eaf0f7",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 77,
+        "sample": "linear-gradient(180deg,#EAF0F7 0%,#E4EAF2 100%);"
+      },
+      {
+        "color": "#f1f6fb",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 94,
+        "sample": "background:linear-gradient(180deg,#F1F6FB 0%,#E8EEF5 100%);"
+      },
+      {
+        "color": "#e8eef5",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 94,
+        "sample": "background:linear-gradient(180deg,#F1F6FB 0%,#E8EEF5 100%);"
+      },
+      {
+        "color": "#a9d8bd",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 162,
+        "sample": ".tile.t-ok .bar i{background:linear-gradient(90deg,#A9D8BD,#D8EEE2)}"
+      },
+      {
+        "color": "#ecf1f7",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 182,
+        "sample": ".tabs{display:inline-flex;background:linear-gradient(145deg,#E2E8F0,#ECF1F7);border-radius:12px;padding:3px;gap:2px;box-"
+      },
+      {
+        "color": "#f3f7fb",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 191,
+        "sample": "background:linear-gradient(145deg,#F3F7FB,#E5EBF2);color:var(--ink-strong);font-weight:700;"
+      },
+      {
+        "color": "#ebf0f6",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 210,
+        "sample": "background:linear-gradient(145deg,#E2E8F0,#EBF0F6);"
+      },
+      {
+        "color": "#2f587b",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 231,
+        "sample": "border-color:rgba(255,255,255,.65);color:#2F587B;"
+      },
+      {
+        "color": "#f7e5e7",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 235,
+        "sample": ".btn-danger{background:linear-gradient(145deg,#F7E5E7 0%,#EFD2D6 100%);border-color:rgba(255,255,255,.6);color:#8A4951;b"
+      }
+    ],
+    "themeTokens": [
+      {
+        "name": "--amber",
+        "defs": [
+          {
+            "line": 45,
+            "value": "#F3E8D2"
+          }
+        ]
+      },
+      {
+        "name": "--amber-2",
+        "defs": [
+          {
+            "line": 46,
+            "value": "#EAD9B5"
+          }
+        ]
+      },
+      {
+        "name": "--amber-ink",
+        "defs": [
+          {
+            "line": 47,
+            "value": "#7E6033"
+          }
+        ]
+      },
+      {
+        "name": "--bg",
+        "defs": [
+          {
+            "line": 21,
+            "value": "#E7ECF3"
+          }
+        ]
+      },
+      {
+        "name": "--bg-soft",
+        "defs": [
+          {
+            "line": 22,
+            "value": "#E4EAF2"
+          }
+        ]
+      },
+      {
+        "name": "--blue",
+        "defs": [
+          {
+            "line": 36,
+            "value": "#C8E0F4"
+          }
+        ]
+      },
+      {
+        "name": "--blue-2",
+        "defs": [
+          {
+            "line": 37,
+            "value": "#A9CDE9"
+          }
+        ]
+      },
+      {
+        "name": "--blue-ink",
+        "defs": [
+          {
+            "line": 38,
+            "value": "#3C6A92"
+          }
+        ]
+      },
+      {
+        "name": "--danger",
+        "defs": [
+          {
+            "line": 48,
+            "value": "#EFD9DB"
+          }
+        ]
+      },
+      {
+        "name": "--danger-ink",
+        "defs": [
+          {
+            "line": 49,
+            "value": "#8E4F57"
+          }
+        ]
+      },
+      {
+        "name": "--dur",
+        "defs": [
+          {
+            "line": 62,
+            "value": ".15s"
+          }
+        ]
+      },
+      {
+        "name": "--ease",
+        "defs": [
+          {
+            "line": 63,
+            "value": "cubic-bezier(.4,0,.2,1)"
+          }
+        ]
+      },
+      {
+        "name": "--faint",
+        "defs": [
+          {
+            "line": 29,
+            "value": "#93A3B5"
+          }
+        ]
+      },
+      {
+        "name": "--hi",
+        "defs": [
+          {
+            "line": 30,
+            "value": "#FFFFFF"
+          }
+        ]
+      },
+      {
+        "name": "--ink",
+        "defs": [
+          {
+            "line": 25,
+            "value": "#33465C"
+          }
+        ]
+      },
+      {
+        "name": "--ink-2",
+        "defs": [
+          {
+            "line": 27,
+            "value": "#51667D"
+          }
+        ]
+      },
+      {
+        "name": "--ink-strong",
+        "defs": [
+          {
+            "line": 26,
+            "value": "#293B4F"
+          }
+        ]
+      },
+      {
+        "name": "--inkc",
+        "defs": [
+          {
+            "line": 134,
+            "value": "#4A6076"
+          },
+          {
+            "line": 143,
+            "value": "#45775C"
+          },
+          {
+            "line": 144,
+            "value": "#7E6033"
+          },
+          {
+            "line": 145,
+            "value": "#3C6A92"
+          }
+        ]
+      },
+      {
+        "name": "--line",
+        "defs": [
+          {
+            "line": 33,
+            "value": "rgba(255,255,255,.55)"
+          }
+        ]
+      },
+      {
+        "name": "--line-2",
+        "defs": [
+          {
+            "line": 34,
+            "value": "rgba(150,166,186,.24)"
+          }
+        ]
+      },
+      {
+        "name": "--mint",
+        "defs": [
+          {
+            "line": 42,
+            "value": "#D8EDE2"
+          }
+        ]
+      },
+      {
+        "name": "--mint-2",
+        "defs": [
+          {
+            "line": 43,
+            "value": "#BFE3CF"
+          }
+        ]
+      },
+      {
+        "name": "--mint-ink",
+        "defs": [
+          {
+            "line": 44,
+            "value": "#45775C"
+          }
+        ]
+      },
+      {
+        "name": "--mono",
+        "defs": [
+          {
+            "line": 64,
+            "value": "\"SFMono-Regular\",Consolas,\"Liberation Mono\",Menlo,\"Courier N"
+          }
+        ]
+      },
+      {
+        "name": "--muted",
+        "defs": [
+          {
+            "line": 28,
+            "value": "#55687E"
+          }
+        ]
+      },
+      {
+        "name": "--ok",
+        "defs": [
+          {
+            "line": 50,
+            "value": "#6FA98B"
+          }
+        ]
+      },
+      {
+        "name": "--ok-ink",
+        "defs": [
+          {
+            "line": 51,
+            "value": "#45775C"
+          }
+        ]
+      },
+      {
+        "name": "--pink",
+        "defs": [
+          {
+            "line": 39,
+            "value": "#F5E0E8"
+          }
+        ]
+      },
+      {
+        "name": "--pink-2",
+        "defs": [
+          {
+            "line": 40,
+            "value": "#EBC9D6"
+          }
+        ]
+      },
+      {
+        "name": "--pink-ink",
+        "defs": [
+          {
+            "line": 41,
+            "value": "#8E5B70"
+          }
+        ]
+      },
+      {
+        "name": "--radius",
+        "defs": [
+          {
+            "line": 59,
+            "value": "14px"
+          }
+        ]
+      },
+      {
+        "name": "--radius-lg",
+        "defs": [
+          {
+            "line": 61,
+            "value": "18px"
+          }
+        ]
+      },
+      {
+        "name": "--radius-sm",
+        "defs": [
+          {
+            "line": 60,
+            "value": "10px"
+          }
+        ]
+      },
+      {
+        "name": "--sh",
+        "defs": [
+          {
+            "line": 31,
+            "value": "rgba(150,166,186,.62)"
+          }
+        ]
+      },
+      {
+        "name": "--sh-soft",
+        "defs": [
+          {
+            "line": 32,
+            "value": "rgba(150,166,186,.4)"
+          }
+        ]
+      },
+      {
+        "name": "--shadow-in",
+        "defs": [
+          {
+            "line": 56,
+            "value": "inset -4px -4px 10px rgba(255,255,255,.9), inset 4px 4px 10p"
+          }
+        ]
+      },
+      {
+        "name": "--shadow-in-sm",
+        "defs": [
+          {
+            "line": 57,
+            "value": "inset -2px -2px 6px rgba(255,255,255,.9), inset 2px 2px 6px "
+          }
+        ]
+      },
+      {
+        "name": "--shadow-out",
+        "defs": [
+          {
+            "line": 53,
+            "value": "-5px -5px 15px rgba(255,255,255,.92), 5px 5px 15px rgba(150,"
+          }
+        ]
+      },
+      {
+        "name": "--shadow-out-lg",
+        "defs": [
+          {
+            "line": 55,
+            "value": "-8px -8px 22px rgba(255,255,255,.95), 8px 8px 22px rgba(150,"
+          }
+        ]
+      },
+      {
+        "name": "--shadow-out-sm",
+        "defs": [
+          {
+            "line": 54,
+            "value": "-3px -3px 8px rgba(255,255,255,.9), 3px 3px 8px rgba(150,166"
+          }
+        ]
+      },
+      {
+        "name": "--surface",
+        "defs": [
+          {
+            "line": 23,
+            "value": "#E9EEF5"
+          }
+        ]
+      },
+      {
+        "name": "--surface-2",
+        "defs": [
+          {
+            "line": 24,
+            "value": "#E4EAF1"
+          }
+        ]
+      },
+      {
+        "name": "--tint",
+        "defs": [
+          {
+            "line": 134,
+            "value": "#DCE6F1"
+          },
+          {
+            "line": 143,
+            "value": "#D8EDE2"
+          },
+          {
+            "line": 144,
+            "value": "#F3E8D2"
+          },
+          {
+            "line": 145,
+            "value": "#C8E0F4"
+          }
+        ]
+      }
+    ],
+    "unusedThemeVars": [
+      "--amber",
+      "--bg-soft",
+      "--blue",
+      "--danger",
+      "--hi",
+      "--line",
+      "--mint",
+      "--ok",
+      "--pink",
+      "--pink-ink",
+      "--radius",
+      "--radius-lg",
+      "--radius-sm",
+      "--sh-soft",
+      "--surface",
+      "--surface-2"
+    ]
+  },
+  "inlineStyles": {
+    "count": 17,
+    "visualOverridable": 0,
+    "layoutDynamic": 16,
+    "items": [
+      {
+        "line": 714,
+        "region": "html",
+        "cssText": "width:0%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 719,
+        "region": "html",
+        "cssText": "width:0%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 724,
+        "region": "html",
+        "cssText": "width:0%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1348,
+        "region": "js",
+        "cssText": "width:64px",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1350,
+        "region": "js",
+        "cssText": "width:64px",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1360,
+        "region": "js",
+        "cssText": "text-align:center",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1363,
+        "region": "js",
+        "cssText": "width:' + p + '%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1380,
+        "region": "js",
+        "cssText": "margin-top:8px",
+        "keys": [
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1380,
+        "region": "js",
+        "cssText": "width:' + p + '%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1394,
+        "region": "js",
+        "cssText": "overflow:auto; margin-top:10px",
+        "keys": [
+          "overflow",
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1580,
+        "region": "js",
+        "cssText": "font-family:inherit",
+        "keys": [
+          "font-family"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "other"
+      },
+      {
+        "line": 2246,
+        "region": "js",
+        "cssText": "flex:none;margin-top:1px",
+        "keys": [
+          "flex",
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2303,
+        "region": "js",
+        "cssText": "text-align:center;width:70px",
+        "keys": [
+          "text-align",
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2303,
+        "region": "js",
+        "cssText": "text-align:left",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2314,
+        "region": "js",
+        "cssText": "text-align:center",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2315,
+        "region": "js",
+        "cssText": "text-align:left",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2338,
+        "region": "js",
+        "cssText": "margin-top:4px",
+        "keys": [
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      }
+    ],
+    "jsStyleAssignments": [
+      {
+        "line": 1158,
+        "prop": "width",
+        "value": "pct(st.rate) + '%'"
+      },
+      {
+        "line": 1159,
+        "prop": "width",
+        "value": "st.total ? (st.left / st.total * 100) + '%' : '0%'"
+      },
+      {
+        "line": 1160,
+        "prop": "width",
+        "value": "pct(st.rate) + '%'"
+      },
+      {
+        "line": 1241,
+        "prop": "gridTemplateColumns",
+        "value": "''"
+      },
+      {
+        "line": 1241,
+        "prop": "gridTemplateRows",
+        "value": "''"
+      },
+      {
+        "line": 1275,
+        "prop": "gridTemplateColumns",
+        "value": "'repeat(' + useC + ', ' + fix(cw) + ')'"
+      },
+      {
+        "line": 1276,
+        "prop": "gridTemplateRows",
+        "value": "'repeat(' + rows + ', ' + fix(ch) + ')'"
+      },
+      {
+        "line": 1277,
+        "prop": "overflow",
+        "value": "scrollable ? 'auto' : 'hidden'"
+      },
+      {
+        "line": 1278,
+        "prop": "alignContent",
+        "value": "scrollable ? 'start' : 'center'"
+      },
+      {
+        "line": 1517,
+        "prop": "overflow",
+        "value": "'hidden'"
+      },
+      {
+        "line": 1525,
+        "prop": "overflow",
+        "value": "''"
+      },
+      {
+        "line": 1901,
+        "prop": "display",
+        "value": "'none'"
+      }
+    ]
+  },
+  "injectedVars": {
+    "cssVarUsage": 3,
+    "cssVarUsageSh": 2,
+    "jsSetPropertySw": 1,
+    "jsSetPropertySh": 1,
+    "ok": true
+  },
+  "knownDeadHints": 30
+}

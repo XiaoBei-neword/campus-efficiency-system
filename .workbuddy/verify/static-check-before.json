@@ -1,0 +1,2844 @@
+{
+  "file": {
+    "path": "C:\\Users\\shanxin\\Desktop\\在校高校系统\\在校高效系统v0.2.1.html",
+    "label": "before",
+    "sha256": "5fd023e70ee2a6fdded8a00f73b434c1ecacdec86f3481f3439ff4a2cdd3703b",
+    "bytes": 988316,
+    "lines": 2379,
+    "styleBlocks": 1,
+    "scriptBlocks": 3
+  },
+  "structure": {
+    "styleTags": [
+      {
+        "openLine": 8,
+        "closeLine": 602,
+        "bytes": 30967
+      }
+    ],
+    "scriptTags": [
+      {
+        "openLine": 740,
+        "closeLine": 757,
+        "bytes": 668,
+        "isSheetJs": false,
+        "isApp": false
+      },
+      {
+        "openLine": 775,
+        "closeLine": 798,
+        "bytes": 639147,
+        "isSheetJs": true,
+        "isApp": false
+      },
+      {
+        "openLine": 799,
+        "closeLine": 2376,
+        "bytes": 63621,
+        "isSheetJs": false,
+        "isApp": true
+      }
+    ],
+    "cssBraces": {
+      "open": 360,
+      "close": 360,
+      "ok": true,
+      "firstNegativeLine": null,
+      "minDepth": 0
+    },
+    "appJsBraces": {
+      "open": 381,
+      "close": 381,
+      "balanced": true
+    },
+    "cssRules": 344,
+    "cssBytes": 30967,
+    "importantCount": 3,
+    "mediaQueries": [
+      {
+        "text": "@media (max-width:900px)",
+        "line": 531
+      },
+      {
+        "text": "@media (max-width:620px)",
+        "line": 540
+      },
+      {
+        "text": "@media (max-width:1024px)",
+        "line": 558
+      },
+      {
+        "text": "@media (max-width:860px)",
+        "line": 563
+      },
+      {
+        "text": "@media (max-width:620px)",
+        "line": 576
+      },
+      {
+        "text": "@media (hover:none)",
+        "line": 591
+      },
+      {
+        "text": "@media (max-width:620px)",
+        "line": 595
+      },
+      {
+        "text": "@media (prefers-reduced-motion:reduce)",
+        "line": 599
+      }
+    ]
+  },
+  "classes": {
+    "definedCount": 141,
+    "usedCount": 101,
+    "htmlUsedCount": 47,
+    "jsUsedCount": 57,
+    "missingStyleForUsed": [
+      {
+        "name": "sb",
+        "dynamicPrefix": [
+          "sb2",
+          "sb3",
+          "sb4",
+          "sb5"
+        ]
+      }
+    ],
+    "deadLegacy": [
+      "anim",
+      "card",
+      "card-head",
+      "card-mid",
+      "del",
+      "dot",
+      "grid",
+      "lbl",
+      "nm",
+      "no",
+      "no-rate",
+      "no-state",
+      "no-time",
+      "pill",
+      "rank",
+      "rate",
+      "rate-track",
+      "rate-val",
+      "seq",
+      "sid",
+      "st-time",
+      "state",
+      "yes"
+    ],
+    "deadOther": [
+      "info"
+    ],
+    "whitelistUnreferenced": [
+      "bad",
+      "btn-danger",
+      "dim",
+      "full",
+      "good",
+      "hi",
+      "just",
+      "ok",
+      "r1",
+      "r2",
+      "r3",
+      "r4",
+      "r5",
+      "sb2",
+      "sb3",
+      "sb4",
+      "sb5"
+    ],
+    "coverage": {
+      "definedCoveredByUsage": 100,
+      "definedTotal": 141,
+      "usedWithStyle": 100,
+      "usedTotal": 101
+    },
+    "definitions": [
+      {
+        "name": "active",
+        "lines": [
+          125,
+          360,
+          368
+        ]
+      },
+      {
+        "name": "acts",
+        "lines": [
+          236
+        ]
+      },
+      {
+        "name": "anim",
+        "lines": [
+          167
+        ]
+      },
+      {
+        "name": "bad",
+        "lines": [
+          342,
+          346
+        ]
+      },
+      {
+        "name": "badge",
+        "lines": [
+          554
+        ]
+      },
+      {
+        "name": "bar",
+        "lines": [
+          100,
+          101,
+          475,
+          476
+        ]
+      },
+      {
+        "name": "blank",
+        "lines": [
+          241,
+          382,
+          495
+        ]
+      },
+      {
+        "name": "board",
+        "lines": [
+          110,
+          480
+        ]
+      },
+      {
+        "name": "board-head",
+        "lines": [
+          114,
+          481,
+          533,
+          566
+        ]
+      },
+      {
+        "name": "brand",
+        "lines": [
+          52,
+          60,
+          61,
+          460,
+          461,
+          534,
+          580
+        ]
+      },
+      {
+        "name": "btn",
+        "lines": [
+          136,
+          142,
+          143,
+          144,
+          151,
+          152,
+          483,
+          581,
+          584
+        ]
+      },
+      {
+        "name": "btn-danger",
+        "lines": [
+          147,
+          148
+        ]
+      },
+      {
+        "name": "btn-ghost-danger",
+        "lines": [
+          149,
+          150
+        ]
+      },
+      {
+        "name": "btn-primary",
+        "lines": [
+          145,
+          146
+        ]
+      },
+      {
+        "name": "card",
+        "lines": [
+          159,
+          167,
+          168,
+          169,
+          170,
+          171,
+          175,
+          180,
+          188,
+          194,
+          199,
+          201,
+          217,
+          219,
+          497,
+          505,
+          508
+        ]
+      },
+      {
+        "name": "card-head",
+        "lines": [
+          182,
+          515
+        ]
+      },
+      {
+        "name": "card-mid",
+        "lines": [
+          197,
+          510,
+          522
+        ]
+      },
+      {
+        "name": "chip",
+        "lines": [
+          312,
+          316
+        ]
+      },
+      {
+        "name": "chips",
+        "lines": [
+          311
+        ]
+      },
+      {
+        "name": "clock",
+        "lines": [
+          62,
+          578
+        ]
+      },
+      {
+        "name": "clock-date",
+        "lines": [
+          76,
+          463
+        ]
+      },
+      {
+        "name": "clock-time",
+        "lines": [
+          71,
+          462,
+          538,
+          559,
+          579
+        ]
+      },
+      {
+        "name": "d",
+        "lines": [
+          261,
+          303
+        ]
+      },
+      {
+        "name": "day-card",
+        "lines": [
+          260,
+          261,
+          262,
+          263
+        ]
+      },
+      {
+        "name": "day-list",
+        "lines": [
+          259,
+          589
+        ]
+      },
+      {
+        "name": "del",
+        "lines": [
+          189,
+          194,
+          195,
+          196,
+          513,
+          521,
+          592
+        ]
+      },
+      {
+        "name": "dim",
+        "lines": [
+          425
+        ]
+      },
+      {
+        "name": "done",
+        "lines": [
+          171,
+          175,
+          188,
+          199,
+          201,
+          217,
+          394,
+          399,
+          400,
+          401,
+          402,
+          405,
+          407,
+          505,
+          508
+        ]
+      },
+      {
+        "name": "dot",
+        "lines": [
+          200,
+          201
+        ]
+      },
+      {
+        "name": "drag",
+        "lines": [
+          228
+        ]
+      },
+      {
+        "name": "empty",
+        "lines": [
+          222,
+          228,
+          229,
+          234,
+          235,
+          236,
+          237,
+          527
+        ]
+      },
+      {
+        "name": "err",
+        "lines": [
+          292
+        ]
+      },
+      {
+        "name": "field",
+        "lines": [
+          284,
+          285,
+          286,
+          287,
+          291,
+          292
+        ]
+      },
+      {
+        "name": "foot",
+        "lines": [
+          350,
+          478
+        ]
+      },
+      {
+        "name": "full",
+        "lines": [
+          219
+        ]
+      },
+      {
+        "name": "good",
+        "lines": [
+          341
+        ]
+      },
+      {
+        "name": "grid",
+        "lines": [
+          155,
+          167,
+          180,
+          573
+        ]
+      },
+      {
+        "name": "hd",
+        "lines": [
+          430,
+          432,
+          433
+        ]
+      },
+      {
+        "name": "hi",
+        "lines": [
+          254
+        ]
+      },
+      {
+        "name": "hint",
+        "lines": [
+          237
+        ]
+      },
+      {
+        "name": "hist-dates",
+        "lines": [
+          429
+        ]
+      },
+      {
+        "name": "hist-empty",
+        "lines": [
+          445
+        ]
+      },
+      {
+        "name": "hist-sum",
+        "lines": [
+          434,
+          435
+        ]
+      },
+      {
+        "name": "hist-tbl",
+        "lines": [
+          437,
+          438,
+          440,
+          441,
+          442
+        ]
+      },
+      {
+        "name": "hist-wrap",
+        "lines": [
+          436
+        ]
+      },
+      {
+        "name": "hk",
+        "lines": [
+          443
+        ]
+      },
+      {
+        "name": "hm",
+        "lines": [
+          444
+        ]
+      },
+      {
+        "name": "ico",
+        "lines": [
+          229
+        ]
+      },
+      {
+        "name": "info",
+        "lines": [
+          321
+        ]
+      },
+      {
+        "name": "just",
+        "lines": [
+          180
+        ]
+      },
+      {
+        "name": "k",
+        "lines": [
+          91,
+          449,
+          472,
+          543,
+          588
+        ]
+      },
+      {
+        "name": "kv",
+        "lines": [
+          322,
+          323,
+          324,
+          325
+        ]
+      },
+      {
+        "name": "lbl",
+        "lines": [
+          214
+        ]
+      },
+      {
+        "name": "leaving-left",
+        "lines": [
+          371
+        ]
+      },
+      {
+        "name": "leaving-right",
+        "lines": [
+          372
+        ]
+      },
+      {
+        "name": "live",
+        "lines": [
+          63,
+          69
+        ]
+      },
+      {
+        "name": "logo",
+        "lines": [
+          53,
+          459
+        ]
+      },
+      {
+        "name": "meta-line",
+        "lines": [
+          102,
+          106,
+          107,
+          478
+        ]
+      },
+      {
+        "name": "mini-bar",
+        "lines": [
+          252,
+          253,
+          254
+        ]
+      },
+      {
+        "name": "modal",
+        "lines": [
+          274,
+          428
+        ]
+      },
+      {
+        "name": "modal-body",
+        "lines": [
+          282
+        ]
+      },
+      {
+        "name": "modal-foot",
+        "lines": [
+          283
+        ]
+      },
+      {
+        "name": "modal-head",
+        "lines": [
+          279,
+          280,
+          281
+        ]
+      },
+      {
+        "name": "modal-mask",
+        "lines": [
+          268
+        ]
+      },
+      {
+        "name": "more",
+        "lines": [
+          316
+        ]
+      },
+      {
+        "name": "n",
+        "lines": [
+          262,
+          263
+        ]
+      },
+      {
+        "name": "nm",
+        "lines": [
+          506,
+          508
+        ]
+      },
+      {
+        "name": "no",
+        "lines": [
+          257
+        ]
+      },
+      {
+        "name": "no-rate",
+        "lines": [
+          518
+        ]
+      },
+      {
+        "name": "no-state",
+        "lines": [
+          520,
+          521,
+          522,
+          523
+        ]
+      },
+      {
+        "name": "no-time",
+        "lines": [
+          519
+        ]
+      },
+      {
+        "name": "notice",
+        "lines": [
+          317,
+          321
+        ]
+      },
+      {
+        "name": "num",
+        "lines": [
+          250
+        ]
+      },
+      {
+        "name": "ok",
+        "lines": [
+          424
+        ]
+      },
+      {
+        "name": "on",
+        "lines": [
+          304,
+          305,
+          306,
+          433
+        ]
+      },
+      {
+        "name": "opt",
+        "lines": [
+          293,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          310
+        ]
+      },
+      {
+        "name": "opt-body",
+        "lines": [
+          301
+        ]
+      },
+      {
+        "name": "out",
+        "lines": [
+          344
+        ]
+      },
+      {
+        "name": "pill",
+        "lines": [
+          255,
+          256,
+          257,
+          258
+        ]
+      },
+      {
+        "name": "pop",
+        "lines": [
+          206,
+          411
+        ]
+      },
+      {
+        "name": "prep-left",
+        "lines": [
+          370
+        ]
+      },
+      {
+        "name": "prep-right",
+        "lines": [
+          369
+        ]
+      },
+      {
+        "name": "r1",
+        "lines": [
+          208
+        ]
+      },
+      {
+        "name": "r2",
+        "lines": [
+          209
+        ]
+      },
+      {
+        "name": "r3",
+        "lines": [
+          210
+        ]
+      },
+      {
+        "name": "r4",
+        "lines": [
+          211
+        ]
+      },
+      {
+        "name": "r5",
+        "lines": [
+          212
+        ]
+      },
+      {
+        "name": "rank",
+        "lines": [
+          202,
+          206,
+          258,
+          512,
+          523
+        ]
+      },
+      {
+        "name": "rate",
+        "lines": [
+          213,
+          214,
+          511,
+          518
+        ]
+      },
+      {
+        "name": "rate-track",
+        "lines": [
+          215,
+          216,
+          217
+        ]
+      },
+      {
+        "name": "rate-val",
+        "lines": [
+          218,
+          219
+        ]
+      },
+      {
+        "name": "row-del",
+        "lines": [
+          421,
+          423
+        ]
+      },
+      {
+        "name": "sb2",
+        "lines": [
+          412
+        ]
+      },
+      {
+        "name": "sb3",
+        "lines": [
+          414
+        ]
+      },
+      {
+        "name": "sb4",
+        "lines": [
+          416
+        ]
+      },
+      {
+        "name": "sb5",
+        "lines": [
+          417
+        ]
+      },
+      {
+        "name": "sc-b",
+        "lines": [
+          402,
+          408,
+          411,
+          412,
+          414,
+          416,
+          417,
+          419
+        ]
+      },
+      {
+        "name": "sc-n",
+        "lines": [
+          400,
+          403,
+          405
+        ]
+      },
+      {
+        "name": "sc-s",
+        "lines": [
+          401,
+          406,
+          407,
+          418
+        ]
+      },
+      {
+        "name": "scard",
+        "lines": [
+          384,
+          391,
+          392,
+          393,
+          394,
+          399,
+          400,
+          401,
+          402,
+          405,
+          407
+        ]
+      },
+      {
+        "name": "search",
+        "lines": [
+          127,
+          128,
+          129,
+          134,
+          135,
+          484,
+          485,
+          570,
+          571,
+          572,
+          583
+        ]
+      },
+      {
+        "name": "sect-title",
+        "lines": [
+          264,
+          265
+        ]
+      },
+      {
+        "name": "sep",
+        "lines": [
+          107
+        ]
+      },
+      {
+        "name": "seq",
+        "lines": [
+          503,
+          505
+        ]
+      },
+      {
+        "name": "sid",
+        "lines": [
+          183,
+          188,
+          502,
+          574
+        ]
+      },
+      {
+        "name": "sidc",
+        "lines": [
+          251,
+          442
+        ]
+      },
+      {
+        "name": "ssw",
+        "lines": [
+          357,
+          359,
+          360
+        ]
+      },
+      {
+        "name": "st-time",
+        "lines": [
+          519
+        ]
+      },
+      {
+        "name": "state",
+        "lines": [
+          198,
+          199,
+          509,
+          520
+        ]
+      },
+      {
+        "name": "stats",
+        "lines": [
+          79,
+          470,
+          537,
+          542,
+          560,
+          565,
+          585
+        ]
+      },
+      {
+        "name": "sub",
+        "lines": [
+          97,
+          477
+        ]
+      },
+      {
+        "name": "subj",
+        "lines": [
+          374
+        ]
+      },
+      {
+        "name": "subj-cnt",
+        "lines": [
+          379
+        ]
+      },
+      {
+        "name": "subj-grid",
+        "lines": [
+          380,
+          382,
+          418,
+          419
+        ]
+      },
+      {
+        "name": "subj-head",
+        "lines": [
+          376
+        ]
+      },
+      {
+        "name": "subj-name",
+        "lines": [
+          378
+        ]
+      },
+      {
+        "name": "subj-panels",
+        "lines": [
+          363,
+          368,
+          369,
+          370,
+          371,
+          372
+        ]
+      },
+      {
+        "name": "subj-switch",
+        "lines": [
+          356
+        ]
+      },
+      {
+        "name": "t",
+        "lines": [
+          302,
+          305
+        ]
+      },
+      {
+        "name": "t-ok",
+        "lines": [
+          88,
+          98
+        ]
+      },
+      {
+        "name": "t-rate",
+        "lines": [
+          90
+        ]
+      },
+      {
+        "name": "t-wait",
+        "lines": [
+          89,
+          99
+        ]
+      },
+      {
+        "name": "tab",
+        "lines": [
+          120,
+          124,
+          125,
+          482,
+          568
+        ]
+      },
+      {
+        "name": "tabs",
+        "lines": [
+          119,
+          567
+        ]
+      },
+      {
+        "name": "tbl",
+        "lines": [
+          242,
+          243,
+          247,
+          248,
+          249,
+          250,
+          251,
+          424,
+          425,
+          526
+        ]
+      },
+      {
+        "name": "ti",
+        "lines": [
+          341,
+          342,
+          347
+        ]
+      },
+      {
+        "name": "tile",
+        "lines": [
+          83,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          96,
+          97,
+          98,
+          99,
+          448,
+          449,
+          450,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          535,
+          536,
+          543,
+          544,
+          561,
+          586,
+          587,
+          588
+        ]
+      },
+      {
+        "name": "tiny",
+        "lines": [
+          418,
+          419
+        ]
+      },
+      {
+        "name": "tip",
+        "lines": [
+          553
+        ]
+      },
+      {
+        "name": "toast",
+        "lines": [
+          334,
+          341,
+          342,
+          344,
+          346,
+          347,
+          596
+        ]
+      },
+      {
+        "name": "toasts",
+        "lines": [
+          328,
+          596,
+          597
+        ]
+      },
+      {
+        "name": "tools",
+        "lines": [
+          126,
+          486,
+          569,
+          582,
+          584
+        ]
+      },
+      {
+        "name": "topbar",
+        "lines": [
+          40,
+          46,
+          457
+        ]
+      },
+      {
+        "name": "topbar-inner",
+        "lines": [
+          51,
+          458,
+          541,
+          577
+        ]
+      },
+      {
+        "name": "unsupported",
+        "lines": [
+          547
+        ]
+      },
+      {
+        "name": "unsupported-card",
+        "lines": [
+          548,
+          550,
+          551,
+          552,
+          553,
+          554
+        ]
+      },
+      {
+        "name": "v",
+        "lines": [
+          92,
+          96,
+          98,
+          99,
+          450,
+          473,
+          474,
+          535,
+          544,
+          561,
+          587
+        ]
+      },
+      {
+        "name": "view-pad",
+        "lines": [
+          240
+        ]
+      },
+      {
+        "name": "wide",
+        "lines": [
+          428
+        ]
+      },
+      {
+        "name": "wrap",
+        "lines": [
+          50,
+          465,
+          532,
+          564
+        ]
+      },
+      {
+        "name": "yes",
+        "lines": [
+          256
+        ]
+      }
+    ]
+  },
+  "colors": {
+    "oldPalette": [
+      {
+        "color": "#12385a",
+        "normalized": "#12385a",
+        "total": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "themeToken": 1,
+        "residue": 5,
+        "hits": [
+          {
+            "raw": "#12385a",
+            "normalized": "#12385a",
+            "line": 10,
+            "region": "css",
+            "themeToken": true,
+            "offset": 656,
+            "lineText": "--navy:#12385a;"
+          },
+          {
+            "raw": "#12385a",
+            "normalized": "#12385a",
+            "line": 300,
+            "region": "css",
+            "themeToken": false,
+            "offset": 16404,
+            "lineText": ".opt input{margin:3px 0 0; accent-color:#12385a; width:16px; height:16px; flex:none; cursor:pointer}"
+          },
+          {
+            "raw": "#12385a",
+            "normalized": "#12385a",
+            "line": 359,
+            "region": "css",
+            "themeToken": false,
+            "offset": 19383,
+            "lineText": ".ssw:hover{color:#12385a}"
+          },
+          {
+            "raw": "#12385a",
+            "normalized": "#12385a",
+            "line": 360,
+            "region": "css",
+            "themeToken": false,
+            "offset": 19428,
+            "lineText": ".ssw.active{background:#fff; color:#12385a; box-shadow:0 1px 3px rgba(18,56,90,.16)}"
+          },
+          {
+            "raw": "#12385a",
+            "normalized": "#12385a",
+            "line": 378,
+            "region": "css",
+            "themeToken": false,
+            "offset": 20624,
+            "lineText": ".subj-name{font-size:13px; font-weight:800; color:#12385a; letter-spacing:3px}"
+          },
+          {
+            "raw": "#12385a",
+            "normalized": "#12385a",
+            "line": 435,
+            "region": "css",
+            "themeToken": false,
+            "offset": 24207,
+            "lineText": ".hist-sum b{font-family:var(--mono); color:#12385a; margin-right:6px}"
+          }
+        ]
+      },
+      {
+        "color": "#1a5b8d",
+        "normalized": "#1a5b8d",
+        "total": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "themeToken": 1,
+        "residue": 2,
+        "hits": [
+          {
+            "raw": "#1a5b8d",
+            "normalized": "#1a5b8d",
+            "line": 11,
+            "region": "css",
+            "themeToken": true,
+            "offset": 677,
+            "lineText": "--navy-2:#1a5b8d;"
+          },
+          {
+            "raw": "#1a5b8d",
+            "normalized": "#1a5b8d",
+            "line": 42,
+            "region": "css",
+            "themeToken": false,
+            "offset": 1655,
+            "lineText": "background:linear-gradient(120deg,#0c2740 0%,#14476f 52%,#1a5b8d 100%);"
+          },
+          {
+            "raw": "#1a5b8d",
+            "normalized": "#1a5b8d",
+            "line": 101,
+            "region": "css",
+            "themeToken": false,
+            "offset": 4954,
+            "lineText": ".bar i{display:block; height:100%; border-radius:4px; background:linear-gradient(90deg,#7fb2dd,#1a5b8d); transition:width .5s cubic-bezier(.4,0,.2,1)}"
+          }
+        ]
+      },
+      {
+        "color": "#0f2740",
+        "normalized": "#0f2740",
+        "total": 0,
+        "css": 0,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 0,
+        "hits": []
+      },
+      {
+        "color": "#14476f",
+        "normalized": "#14476f",
+        "total": 1,
+        "css": 1,
+        "js": 0,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 1,
+        "hits": [
+          {
+            "raw": "#14476f",
+            "normalized": "#14476f",
+            "line": 42,
+            "region": "css",
+            "themeToken": false,
+            "offset": 1643,
+            "lineText": "background:linear-gradient(120deg,#0c2740 0%,#14476f 52%,#1a5b8d 100%);"
+          }
+        ]
+      },
+      {
+        "color": "#c62828",
+        "normalized": "#c62828",
+        "total": 8,
+        "css": 8,
+        "js": 0,
+        "html": 0,
+        "themeToken": 1,
+        "residue": 7,
+        "hits": [
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 19,
+            "region": "css",
+            "themeToken": true,
+            "offset": 834,
+            "lineText": "--danger:#c62828;"
+          },
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 147,
+            "region": "css",
+            "themeToken": false,
+            "offset": 7214,
+            "lineText": ".btn-danger{background:#c62828; border-color:#c62828; color:#fff}"
+          },
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 147,
+            "region": "css",
+            "themeToken": false,
+            "offset": 7236,
+            "lineText": ".btn-danger{background:#c62828; border-color:#c62828; color:#fff}"
+          },
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 195,
+            "region": "css",
+            "themeToken": false,
+            "offset": 9566,
+            "lineText": ".del:hover{background:#fdecea; color:#c62828}"
+          },
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 196,
+            "region": "css",
+            "themeToken": false,
+            "offset": 9632,
+            "lineText": ".del:focus-visible{opacity:1; background:#fdecea; color:#c62828; outline:none}"
+          },
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 292,
+            "region": "css",
+            "themeToken": false,
+            "offset": 16021,
+            "lineText": ".field .err{min-height:16px; font-size:11.5px; color:#c62828; margin-top:5px}"
+          },
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 342,
+            "region": "css",
+            "themeToken": false,
+            "offset": 18449,
+            "lineText": ".toast.bad .ti{color:#c62828}"
+          },
+          {
+            "raw": "#c62828",
+            "normalized": "#c62828",
+            "line": 555,
+            "region": "css",
+            "themeToken": false,
+            "offset": 30027,
+            "lineText": "background:#fff2f0; color:#c62828; font-size:24px; font-weight:700; margin-bottom:16px; border:1px solid #f6d5d1}"
+          }
+        ]
+      },
+      {
+        "color": "#16a34a",
+        "normalized": "#16a34a",
+        "total": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "themeToken": 1,
+        "residue": 5,
+        "hits": [
+          {
+            "raw": "#16a34a",
+            "normalized": "#16a34a",
+            "line": 17,
+            "region": "css",
+            "themeToken": true,
+            "offset": 791,
+            "lineText": "--ok:#16a34a;"
+          },
+          {
+            "raw": "#16a34a",
+            "normalized": "#16a34a",
+            "line": 201,
+            "region": "css",
+            "themeToken": false,
+            "offset": 10041,
+            "lineText": ".card.done .dot{background:#16a34a; box-shadow:0 0 0 3px rgba(22,163,74,.13)}"
+          },
+          {
+            "raw": "#16a34a",
+            "normalized": "#16a34a",
+            "line": 217,
+            "region": "css",
+            "themeToken": false,
+            "offset": 11360,
+            "lineText": ".card.done .rate-track i{background:linear-gradient(90deg,#7ddba0,#16a34a)}"
+          },
+          {
+            "raw": "#16a34a",
+            "normalized": "#16a34a",
+            "line": 254,
+            "region": "css",
+            "themeToken": false,
+            "offset": 13421,
+            "lineText": ".mini-bar.hi i{background:linear-gradient(90deg,#7ddba0,#16a34a)}"
+          },
+          {
+            "raw": "#16a34a",
+            "normalized": "#16a34a",
+            "line": 341,
+            "region": "css",
+            "themeToken": false,
+            "offset": 18418,
+            "lineText": ".toast.good .ti{color:#16a34a}"
+          },
+          {
+            "raw": "#16a34a",
+            "normalized": "#16a34a",
+            "line": 443,
+            "region": "css",
+            "themeToken": false,
+            "offset": 24845,
+            "lineText": ".hk{color:#16a34a; font-weight:800; font-size:13px}"
+          }
+        ]
+      },
+      {
+        "color": "#12813f",
+        "normalized": "#12813f",
+        "total": 5,
+        "css": 4,
+        "js": 1,
+        "html": 0,
+        "themeToken": 0,
+        "residue": 5,
+        "hits": [
+          {
+            "raw": "#12813f",
+            "normalized": "#12813f",
+            "line": 98,
+            "region": "css",
+            "themeToken": false,
+            "offset": 4726,
+            "lineText": ".tile.t-ok .v{color:#12813f}"
+          },
+          {
+            "raw": "#12813f",
+            "normalized": "#12813f",
+            "line": 219,
+            "region": "css",
+            "themeToken": false,
+            "offset": 11487,
+            "lineText": ".card.full .rate-val{color:#12813f}"
+          },
+          {
+            "raw": "#12813f",
+            "normalized": "#12813f",
+            "line": 256,
+            "region": "css",
+            "themeToken": false,
+            "offset": 13597,
+            "lineText": ".pill.yes{background:var(--ok-soft); color:#12813f}"
+          },
+          {
+            "raw": "#12813f",
+            "normalized": "#12813f",
+            "line": 424,
+            "region": "css",
+            "themeToken": false,
+            "offset": 23578,
+            "lineText": ".tbl td.ok{color:#12813f; font-weight:700}"
+          },
+          {
+            "raw": "#12813f",
+            "normalized": "#12813f",
+            "line": 1291,
+            "region": "js",
+            "themeToken": false,
+            "offset": 697313,
+            "lineText": "'<span class=\"num\" style=\"font-weight:600;color:' + (p >= 80 ? '#12813f' : '#4a6a86') + '\">' + p + '%</span></td>' +"
+          }
+        ]
+      },
+      {
+        "color": "#e0a13a",
+        "normalized": "#e0a13a",
+        "total": 2,
+        "css": 1,
+        "js": 0,
+        "html": 1,
+        "themeToken": 0,
+        "residue": 2,
+        "hits": [
+          {
+            "raw": "#e0a13a",
+            "normalized": "#e0a13a",
+            "line": 89,
+            "region": "css",
+            "themeToken": false,
+            "offset": 4109,
+            "lineText": ".tile.t-wait::before{background:#e0a13a; opacity:.6}"
+          },
+          {
+            "raw": "#e0a13a",
+            "normalized": "#e0a13a",
+            "line": 646,
+            "region": "html",
+            "themeToken": false,
+            "offset": 33155,
+            "lineText": "<div class=\"bar\"><i id=\"stLeftBar\" style=\"width:0%; background:linear-gradient(90deg,#f3cf95,#e0a13a)\"></i></div>"
+          }
+        ]
+      },
+      {
+        "color": "#f1f5f9",
+        "normalized": "#f1f5f9",
+        "total": 1,
+        "css": 1,
+        "js": 0,
+        "html": 0,
+        "themeToken": 1,
+        "residue": 0,
+        "hits": [
+          {
+            "raw": "#f1f5f9",
+            "normalized": "#f1f5f9",
+            "line": 12,
+            "region": "css",
+            "themeToken": true,
+            "offset": 694,
+            "lineText": "--bg:#f1f5f9;"
+          }
+        ]
+      },
+      {
+        "color": "#ffffff",
+        "normalized": "#ffffff",
+        "total": 24,
+        "css": 24,
+        "js": 0,
+        "html": 0,
+        "themeToken": 1,
+        "residue": 23,
+        "hits": [
+          {
+            "raw": "#ffffff",
+            "normalized": "#ffffff",
+            "line": 13,
+            "region": "css",
+            "themeToken": true,
+            "offset": 716,
+            "lineText": "--surface:#ffffff;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 60,
+            "region": "css",
+            "themeToken": false,
+            "offset": 2509,
+            "lineText": ".brand h1{margin:0; font-size:19px; font-weight:700; letter-spacing:.6px; color:#fff; white-space:nowrap}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 73,
+            "region": "css",
+            "themeToken": false,
+            "offset": 3404,
+            "lineText": "letter-spacing:1.5px; font-variant-numeric:tabular-nums; color:#fff;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 117,
+            "region": "css",
+            "themeToken": false,
+            "offset": 5671,
+            "lineText": "background:linear-gradient(180deg,#fbfdff,#fff);"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 125,
+            "region": "css",
+            "themeToken": false,
+            "offset": 6016,
+            "lineText": ".tab.active{background:#fff; color:var(--navy); box-shadow:0 1px 4px rgba(18,56,90,.16)}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 132,
+            "region": "css",
+            "themeToken": false,
+            "offset": 6442,
+            "lineText": "background:#fff; color:var(--text); outline:none; transition:.18s;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 139,
+            "region": "css",
+            "themeToken": false,
+            "offset": 6822,
+            "lineText": "background:#fff; color:#25425a; font-size:13.5px; font-weight:600;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 145,
+            "region": "css",
+            "themeToken": false,
+            "offset": 7122,
+            "lineText": ".btn-primary{background:var(--navy); border-color:var(--navy); color:#fff}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 147,
+            "region": "css",
+            "themeToken": false,
+            "offset": 7251,
+            "lineText": ".btn-danger{background:#c62828; border-color:#c62828; color:#fff}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 149,
+            "region": "css",
+            "themeToken": false,
+            "offset": 7385,
+            "lineText": ".btn-ghost-danger{color:#b3261e; border-color:#f0d5d3; background:#fff}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 152,
+            "region": "css",
+            "themeToken": false,
+            "offset": 7580,
+            "lineText": ".btn:disabled:hover{border-color:var(--line); background:#fff}"
+          },
+          {
+            "raw": "#ffffff",
+            "normalized": "#ffffff",
+            "line": 173,
+            "region": "css",
+            "themeToken": false,
+            "offset": 8563,
+            "lineText": "background:linear-gradient(180deg,#f3fcf6 0%,#ffffff 62%);"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 225,
+            "region": "css",
+            "themeToken": false,
+            "offset": 11705,
+            "lineText": "background:radial-gradient(circle at 50% -10%,#f6fbff,#fff 62%);"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 275,
+            "region": "css",
+            "themeToken": false,
+            "offset": 14750,
+            "lineText": "width:min(500px,100%); background:#fff; border-radius:18px; overflow:hidden;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 291,
+            "region": "css",
+            "themeToken": false,
+            "offset": 15961,
+            "lineText": ".field input[type=text]:focus{border-color:#79b0dd; box-shadow:0 0 0 3px rgba(47,140,209,.13); background:#fff}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 336,
+            "region": "css",
+            "themeToken": false,
+            "offset": 18260,
+            "lineText": "padding:8px 16px; border-radius:10px; color:#1f3448; background:#fff;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 360,
+            "region": "css",
+            "themeToken": false,
+            "offset": 19416,
+            "lineText": ".ssw.active{background:#fff; color:#12385a; box-shadow:0 1px 3px rgba(18,56,90,.16)}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 377,
+            "region": "css",
+            "themeToken": false,
+            "offset": 20566,
+            "lineText": "padding:7px 13px; border-bottom:1px solid var(--line); background:linear-gradient(180deg,#f7fbff,#fff)}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 388,
+            "region": "css",
+            "themeToken": false,
+            "offset": 21392,
+            "lineText": "border:1px solid var(--line); border-radius:9px; background:#fff;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 400,
+            "region": "css",
+            "themeToken": false,
+            "offset": 21956,
+            "lineText": ".scard.done .sc-n{color:#fff; text-shadow:0 1px 2px rgba(6,60,30,.18)}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 421,
+            "region": "css",
+            "themeToken": false,
+            "offset": 23374,
+            "lineText": ".row-del{border:1px solid #f0d5d3; background:#fff; color:#b3261e; font-size:11.5px;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 430,
+            "region": "css",
+            "themeToken": false,
+            "offset": 23803,
+            "lineText": ".hd{border:1px solid var(--line); background:#fff; border-radius:8px; padding:6px 11px;"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 433,
+            "region": "css",
+            "themeToken": false,
+            "offset": 24072,
+            "lineText": ".hd.on{background:var(--navy); border-color:var(--navy); color:#fff}"
+          },
+          {
+            "raw": "#fff",
+            "normalized": "#ffffff",
+            "line": 548,
+            "region": "css",
+            "themeToken": false,
+            "offset": 29446,
+            "lineText": ".unsupported-card{max-width:540px; background:#fff; border:1px solid var(--line); border-radius:18px;"
+          }
+        ]
+      }
+    ],
+    "oldPaletteResidueTotal": 50,
+    "oldPaletteThemeTokenTotal": 6,
+    "oldPaletteTotal": 56,
+    "rgbCount": 41,
+    "hslCount": 0,
+    "uniqueHexCount": 126,
+    "inventoryTop30": [
+      {
+        "color": "#ffffff",
+        "count": 24,
+        "css": 24,
+        "js": 0,
+        "html": 0,
+        "firstLine": 13,
+        "sample": "--surface:#ffffff;"
+      },
+      {
+        "color": "#c62828",
+        "count": 8,
+        "css": 8,
+        "js": 0,
+        "html": 0,
+        "firstLine": 19,
+        "sample": "--danger:#c62828;"
+      },
+      {
+        "color": "#12385a",
+        "count": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "firstLine": 10,
+        "sample": "--navy:#12385a;"
+      },
+      {
+        "color": "#16a34a",
+        "count": 6,
+        "css": 6,
+        "js": 0,
+        "html": 0,
+        "firstLine": 17,
+        "sample": "--ok:#16a34a;"
+      },
+      {
+        "color": "#12813f",
+        "count": 5,
+        "css": 4,
+        "js": 1,
+        "html": 0,
+        "firstLine": 98,
+        "sample": ".tile.t-ok .v{color:#12813f}"
+      },
+      {
+        "color": "#15334c",
+        "count": 5,
+        "css": 5,
+        "js": 0,
+        "html": 0,
+        "firstLine": 185,
+        "sample": "color:#15334c; font-variant-numeric:tabular-nums; overflow:hidden;"
+      },
+      {
+        "color": "#eef3f8",
+        "count": 4,
+        "css": 4,
+        "js": 0,
+        "html": 0,
+        "firstLine": 100,
+        "sample": ".bar{height:6px; border-radius:4px; background:#eef3f8; overflow:hidden; margin-top:11px}"
+      },
+      {
+        "color": "#79b0dd",
+        "count": 4,
+        "css": 4,
+        "js": 0,
+        "html": 0,
+        "firstLine": 135,
+        "sample": ".search input:focus{border-color:#79b0dd; box-shadow:0 0 0 3px rgba(47,140,209,.13); width:200px}"
+      },
+      {
+        "color": "#93a5b6",
+        "count": 4,
+        "css": 4,
+        "js": 0,
+        "html": 0,
+        "firstLine": 213,
+        "sample": ".rate{display:flex; align-items:center; gap:7px; font-size:11px; color:#93a5b6}"
+      },
+      {
+        "color": "#f7fbff",
+        "count": 4,
+        "css": 4,
+        "js": 0,
+        "html": 0,
+        "firstLine": 249,
+        "sample": ".tbl tbody tr:hover{background:#f7fbff}"
+      },
+      {
+        "color": "#1a5b8d",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 11,
+        "sample": "--navy-2:#1a5b8d;"
+      },
+      {
+        "color": "#25425a",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 139,
+        "sample": "background:#fff; color:#25425a; font-size:13.5px; font-weight:600;"
+      },
+      {
+        "color": "#0d6b35",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 188,
+        "sample": ".card.done .sid{color:#0d6b35}"
+      },
+      {
+        "color": "#5b7a94",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 218,
+        "sample": ".rate-val{flex:none; font-variant-numeric:tabular-nums; font-weight:700; color:#5b7a94}"
+      },
+      {
+        "color": "#fcfdff",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 260,
+        "sample": ".day-card{border:1px solid var(--line); border-radius:12px; padding:12px 14px; background:#fcfdff}"
+      },
+      {
+        "color": "#4a6a86",
+        "count": 3,
+        "css": 2,
+        "js": 1,
+        "html": 0,
+        "firstLine": 261,
+        "sample": ".day-card .d{font-family:var(--mono); font-size:12.5px; color:#4a6a86; letter-spacing:.4px}"
+      },
+      {
+        "color": "#9aacbc",
+        "count": 3,
+        "css": 3,
+        "js": 0,
+        "html": 0,
+        "firstLine": 286,
+        "sample": ".field label em{font-style:normal; font-weight:500; color:#9aacbc; font-size:11.5px; margin-left:4px}"
+      },
+      {
+        "color": "#e0a13a",
+        "count": 2,
+        "css": 1,
+        "js": 0,
+        "html": 1,
+        "firstLine": 89,
+        "sample": ".tile.t-wait::before{background:#e0a13a; opacity:.6}"
+      },
+      {
+        "color": "#fbfdff",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 117,
+        "sample": "background:linear-gradient(180deg,#fbfdff,#fff);"
+      },
+      {
+        "color": "#eef3f9",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 119,
+        "sample": ".tabs{display:inline-flex; background:#eef3f9; border-radius:11px; padding:3px; gap:2px}"
+      },
+      {
+        "color": "#5f7689",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 122,
+        "sample": "font-size:13.5px; font-weight:600; color:#5f7689; cursor:pointer; transition:.16s; white-space:nowrap;"
+      },
+      {
+        "color": "#17496f",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 146,
+        "sample": ".btn-primary:hover{background:#17496f; border-color:#17496f}"
+      },
+      {
+        "color": "#ad1f1f",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 148,
+        "sample": ".btn-danger:hover{background:#ad1f1f; border-color:#ad1f1f}"
+      },
+      {
+        "color": "#b3261e",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 149,
+        "sample": ".btn-ghost-danger{color:#b3261e; border-color:#f0d5d3; background:#fff}"
+      },
+      {
+        "color": "#f0d5d3",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 149,
+        "sample": ".btn-ghost-danger{color:#b3261e; border-color:#f0d5d3; background:#fff}"
+      },
+      {
+        "color": "#fdf3f2",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 150,
+        "sample": ".btn-ghost-danger:hover{background:#fdf3f2; border-color:#e7b9b5}"
+      },
+      {
+        "color": "#e7b9b5",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 150,
+        "sample": ".btn-ghost-danger:hover{background:#fdf3f2; border-color:#e7b9b5}"
+      },
+      {
+        "color": "#c6d9ea",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 168,
+        "sample": ".card:hover{transform:translateY(-2px); box-shadow:var(--shadow-md); border-color:#c6d9ea}"
+      },
+      {
+        "color": "#fdecea",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 195,
+        "sample": ".del:hover{background:#fdecea; color:#c62828}"
+      },
+      {
+        "color": "#8b9daf",
+        "count": 2,
+        "css": 2,
+        "js": 0,
+        "html": 0,
+        "firstLine": 198,
+        "sample": ".state{display:inline-flex; align-items:center; gap:6px; font-size:12.5px; color:#8b9daf; font-variant-numeric:tabular-n"
+      }
+    ],
+    "themeTokens": [
+      {
+        "name": "--bg",
+        "defs": [
+          {
+            "line": 12,
+            "value": "#f1f5f9"
+          }
+        ]
+      },
+      {
+        "name": "--danger",
+        "defs": [
+          {
+            "line": 19,
+            "value": "#c62828"
+          }
+        ]
+      },
+      {
+        "name": "--line",
+        "defs": [
+          {
+            "line": 14,
+            "value": "#e2e9f1"
+          }
+        ]
+      },
+      {
+        "name": "--mono",
+        "defs": [
+          {
+            "line": 23,
+            "value": "\"SFMono-Regular\",Consolas,\"Liberation Mono\",Menlo,\"Courier N"
+          }
+        ]
+      },
+      {
+        "name": "--muted",
+        "defs": [
+          {
+            "line": 16,
+            "value": "#6c8199"
+          }
+        ]
+      },
+      {
+        "name": "--navy",
+        "defs": [
+          {
+            "line": 10,
+            "value": "#12385a"
+          }
+        ]
+      },
+      {
+        "name": "--navy-2",
+        "defs": [
+          {
+            "line": 11,
+            "value": "#1a5b8d"
+          }
+        ]
+      },
+      {
+        "name": "--ok",
+        "defs": [
+          {
+            "line": 17,
+            "value": "#16a34a"
+          }
+        ]
+      },
+      {
+        "name": "--ok-soft",
+        "defs": [
+          {
+            "line": 18,
+            "value": "#eaf7ee"
+          }
+        ]
+      },
+      {
+        "name": "--radius",
+        "defs": [
+          {
+            "line": 20,
+            "value": "16px"
+          }
+        ]
+      },
+      {
+        "name": "--shadow-md",
+        "defs": [
+          {
+            "line": 22,
+            "value": "0 6px 22px rgba(18,56,90,.09)"
+          }
+        ]
+      },
+      {
+        "name": "--shadow-sm",
+        "defs": [
+          {
+            "line": 21,
+            "value": "0 1px 2px rgba(18,56,90,.06), 0 1px 3px rgba(18,56,90,.05)"
+          }
+        ]
+      },
+      {
+        "name": "--surface",
+        "defs": [
+          {
+            "line": 13,
+            "value": "#ffffff"
+          }
+        ]
+      },
+      {
+        "name": "--text",
+        "defs": [
+          {
+            "line": 15,
+            "value": "#16273a"
+          }
+        ]
+      }
+    ],
+    "unusedThemeVars": [
+      "--danger"
+    ]
+  },
+  "inlineStyles": {
+    "count": 18,
+    "visualOverridable": 2,
+    "layoutDynamic": 15,
+    "items": [
+      {
+        "line": 641,
+        "region": "html",
+        "cssText": "width:0%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 646,
+        "region": "html",
+        "cssText": "width:0%; background:linear-gradient(90deg,#f3cf95,#e0a13a)",
+        "keys": [
+          "width",
+          "background"
+        ],
+        "hexColors": [
+          "#f3cf95",
+          "#e0a13a"
+        ],
+        "flags": {
+          "hasColor": true,
+          "hasBackground": true,
+          "hasGradient": true,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "visual-overridable（新主题应接管/可移除）"
+      },
+      {
+        "line": 651,
+        "region": "html",
+        "cssText": "width:0%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1275,
+        "region": "js",
+        "cssText": "width:64px",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1277,
+        "region": "js",
+        "cssText": "width:64px",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1287,
+        "region": "js",
+        "cssText": "text-align:center",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1290,
+        "region": "js",
+        "cssText": "width:' + p + '%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1291,
+        "region": "js",
+        "cssText": "font-weight:600;color:' + (p >= 80 ? '#12813f' : '#4a6a86') + '",
+        "keys": [
+          "font-weight",
+          "color"
+        ],
+        "hexColors": [
+          "#12813f",
+          "#4a6a86"
+        ],
+        "flags": {
+          "hasColor": true,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "visual-overridable（新主题应接管/可移除）"
+      },
+      {
+        "line": 1307,
+        "region": "js",
+        "cssText": "margin-top:8px",
+        "keys": [
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1307,
+        "region": "js",
+        "cssText": "width:' + p + '%",
+        "keys": [
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1321,
+        "region": "js",
+        "cssText": "overflow:auto; margin-top:10px",
+        "keys": [
+          "overflow",
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 1507,
+        "region": "js",
+        "cssText": "font-family:inherit",
+        "keys": [
+          "font-family"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": false,
+          "hasAccent": false
+        },
+        "classify": "other"
+      },
+      {
+        "line": 2173,
+        "region": "js",
+        "cssText": "flex:none;margin-top:1px",
+        "keys": [
+          "flex",
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2230,
+        "region": "js",
+        "cssText": "text-align:center;width:70px",
+        "keys": [
+          "text-align",
+          "width"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": true,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2230,
+        "region": "js",
+        "cssText": "text-align:left",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2241,
+        "region": "js",
+        "cssText": "text-align:center",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2242,
+        "region": "js",
+        "cssText": "text-align:left",
+        "keys": [
+          "text-align"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      },
+      {
+        "line": 2265,
+        "region": "js",
+        "cssText": "margin-top:4px",
+        "keys": [
+          "margin-top"
+        ],
+        "hexColors": [],
+        "flags": {
+          "hasColor": false,
+          "hasBackground": false,
+          "hasGradient": false,
+          "hasShadow": false,
+          "hasRadius": false,
+          "hasBorder": false,
+          "hasWidth": false,
+          "hasHeight": false,
+          "hasTransform": false,
+          "hasLayout": true,
+          "hasAccent": false
+        },
+        "classify": "layout-dynamic（布局/度量，需保留）"
+      }
+    ],
+    "jsStyleAssignments": [
+      {
+        "line": 1085,
+        "prop": "width",
+        "value": "pct(st.rate) + '%'"
+      },
+      {
+        "line": 1086,
+        "prop": "width",
+        "value": "st.total ? (st.left / st.total * 100) + '%' : '0%'"
+      },
+      {
+        "line": 1087,
+        "prop": "width",
+        "value": "pct(st.rate) + '%'"
+      },
+      {
+        "line": 1168,
+        "prop": "gridTemplateColumns",
+        "value": "''"
+      },
+      {
+        "line": 1168,
+        "prop": "gridTemplateRows",
+        "value": "''"
+      },
+      {
+        "line": 1202,
+        "prop": "gridTemplateColumns",
+        "value": "'repeat(' + useC + ', ' + fix(cw) + ')'"
+      },
+      {
+        "line": 1203,
+        "prop": "gridTemplateRows",
+        "value": "'repeat(' + rows + ', ' + fix(ch) + ')'"
+      },
+      {
+        "line": 1204,
+        "prop": "overflow",
+        "value": "scrollable ? 'auto' : 'hidden'"
+      },
+      {
+        "line": 1205,
+        "prop": "alignContent",
+        "value": "scrollable ? 'start' : 'center'"
+      },
+      {
+        "line": 1444,
+        "prop": "overflow",
+        "value": "'hidden'"
+      },
+      {
+        "line": 1452,
+        "prop": "overflow",
+        "value": "''"
+      },
+      {
+        "line": 1828,
+        "prop": "display",
+        "value": "'none'"
+      }
+    ]
+  },
+  "injectedVars": {
+    "cssVarUsage": 3,
+    "cssVarUsageSh": 1,
+    "jsSetPropertySw": 1,
+    "jsSetPropertySh": 1,
+    "ok": true
+  },
+  "knownDeadHints": 30
+}

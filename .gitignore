@@ -1,0 +1,11 @@
+# 验证脚本用的浏览器 profile（内含第三方浏览器扩展，非本项目代码）
+.workbuddy/verify/profile-elev/
+
+# 依赖
+node_modules/
+
+# 编辑器 / 系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
